@@ -3,13 +3,13 @@ Content-Type: application/json
 
 {
     "title": "Video node",
-    "description": "Esse é o primeiro video",
+    "description": "Esse é o primeiro video de node",
     "duration": 1800
 }
 
 ###
 
-GET http://localhost:3333/videos?search=node
+GET http://localhost:3333/videos
 
 ###
 
@@ -24,4 +24,4 @@ Content-Type: application/json
 
 ###
 
-DELETE http://localhost:3333/videos/a3b80fa5-bf49-4242-9977-d9ad54ed913b
+DELETE http://localhost:3333/videos/b886d192-e28c-4268-8798-b5360961b9f1
